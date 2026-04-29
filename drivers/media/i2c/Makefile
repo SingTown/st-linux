@@ -2,6 +2,7 @@
 
 msp3400-objs	:=	msp3400-driver.o msp3400-kthreads.o
 
+obj-$(CONFIG_VIDEO_PAG7936) += pag7936.o
 obj-$(CONFIG_SDR_MAX2175) += max2175.o
 obj-$(CONFIG_VIDEO_AD5820) += ad5820.o
 obj-$(CONFIG_VIDEO_ADP1653) += adp1653.o
