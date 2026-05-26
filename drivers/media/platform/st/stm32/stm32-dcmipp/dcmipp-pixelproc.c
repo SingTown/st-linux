@@ -131,7 +131,7 @@ static const struct dcmipp_pixelproc_pix_map dcmipp_pixelproc_sink_pix_map_list[
 
 static const struct dcmipp_pixelproc_pix_map dcmipp_pixelproc_src_pix_map_list[] = {
 	PIXMAP_MBUS(RGB888_1X24, DCMIPP_ALL_PIXEL_PIPES),
-	PIXMAP_MBUS(YUV8_1X24, DCMIPP_ALL_PIXEL_PIPES),
+	PIXMAP_MBUS(Y8_1X8, DCMIPP_ALL_PIXEL_PIPES),
 };
 
 /* Macro for negative coefficient, 11 bits coded */

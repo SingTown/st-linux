@@ -569,6 +569,16 @@ config VIDEO_OV9734
 	  To compile this driver as a module, choose M here: the
 	  module's name is ov9734.
 
+config VIDEO_PAG7936
+	tristate "Pag7936 sensor support"
+	depends on OF_GPIO
+	help
+	  This is a Video4Linux2 sensor driver for the
+	  Pag7936 camera.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called pag7936.
+
 config VIDEO_RDACM20
 	tristate "IMI RDACM20 camera support"
 	select VIDEO_MAX9271_LIB
